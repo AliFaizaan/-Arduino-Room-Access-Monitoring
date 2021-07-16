@@ -17,7 +17,7 @@ ELECTRIC COMPONENTS REQUIRED:
 
                              1. Arduino Uno Microcontroller, ATMEGA328P-PU X 1 (With USB Wire)
                              2. Laser Module KY008  X 2
-                             3. LCD, 16X2 (Arranged)
+                             3. i2c LCD (Arranged)
                              4. BreadBoard X 2
                              5. Male to Female Wires + Male to Male Wires 
                              6. LDR Module LM393 X 2
@@ -25,7 +25,8 @@ ELECTRIC COMPONENTS REQUIRED:
                              
                              
  Circuit Diagram:
-![Project Fritzig UPDATED](https://user-images.githubusercontent.com/78413592/121541103-48ce6600-ca07-11eb-8e4f-6a8f0293e379.png)
+![Project Fritzig_final_File_bb](https://user-images.githubusercontent.com/78413592/125916968-ea9c1a14-bb85-4cf7-9299-7f7014ec32d4.png)
+
 
 
 
@@ -46,6 +47,14 @@ LDR 2 triggers first then after a brief interval LDR 1 triggers
 The Counter value is updated at real time
 LED Screen shows the counter
 There is a loop that checks the counter and if the value increases the predefined value it raises a flag and the microcontroller activates the buzzer until the counter value reaches the defined value.
+
+Final Build:
+![Project_Final](https://user-images.githubusercontent.com/78413592/125916801-2fc9632e-6dd1-46ac-9fd5-bd0046cd0583.jpg)
+
+
+Youtube Link For FInal Presentation:
+https://youtu.be/LZewqXrxwp0
+
 
 
 
